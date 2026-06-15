@@ -48,6 +48,23 @@ My decision rule will be: if the main purpose of the comment is to explain a cla
 
 Another hard edge case is the difference between `hot_take` and `analysis`. A comment may make a strong claim like “Shanks is overrated,” but also include one piece of evidence. My decision rule will be: if the comment gives enough specific reasoning that the argument could stand on its own, I will label it `analysis`. If the evidence is weak, vague, or mostly used to support a bold opinion without real explanation, I will label it `hot_take`.
 
+### Difficult Examples From Initial Labeling
+
+1. **Example:** A comment praised a chapter as “peak” but also explained that the reveal connected to earlier foreshadowing.  
+   **Possible labels:** `reaction`, `analysis`  
+   **Final label:** `analysis`  
+   **Decision:** I chose `analysis` because the comment did more than express hype; it used story evidence to explain why the reveal worked.
+
+2. **Example:** A comment said a character was overrated but included one short reason based on a fight or arc.  
+   **Possible labels:** `hot_take`, `analysis`  
+   **Final label:** `hot_take`  
+   **Decision:** I chose `hot_take` because the reasoning was too brief to count as a real argument.
+
+3. **Example:** A comment reacted emotionally to a major scene, saying it gave them chills and made them emotional.  
+   **Possible labels:** `reaction`, `analysis`  
+   **Final label:** `reaction`  
+   **Decision:** I chose `reaction` because the comment focused on the emotional impact rather than explaining a broader story point.
+
 ## Data Collection Plan
 
 I will collect public posts and comments from **r/OnePiece**. I will mainly use theory posts, chapter discussion threads, episode discussion threads, character discussion posts, and “overrated/underrated” style debate posts.
