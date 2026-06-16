@@ -243,7 +243,7 @@ Overall, the model seemed to learn a shallow shortcut: if a comment mentioned pl
 
 | Example post/comment                                                                                                                                                    | Predicted label | Confidence | Correct?                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ---------: | ------------------------------- |
-| “Crocodile is like a sandstorm that wears down the heart and mind of Alabasta people. Just like how he drains water, he also drains the people’s patience and trust...” | `analysis`      |       0.38 | Yes — true label was `analysis` |
+| “Crocodile is like a sandstorm that wears down the heart and mind of Alabasta people. Just like how he drains water, he also drains the people’s patience and trust...” | `analysis`      |       0.39 | Yes — true label was `analysis` |
 | “zoan users are on full form, the one that died are the zoan fruit instead of user.”                                                                                    | `analysis`      |       0.37 | No — true label was `hot_take`  |
 | “Tritoma is Luffy’s mom”                                                                                                                                                | `analysis`      |       0.36 | No — true label was `hot_take`  |
 | “The last 10 minutes were so beautiful. From the fight scenes to the flashbacks was amazing...”                                                                         | `analysis`      |       0.37 | No — true label was `reaction`  |
